@@ -1,5 +1,9 @@
 package rt.string.service
 
+import org.springframework.stereotype.Service
+import javax.xml.ws.ServiceMode
+
+@Service
 class ValidatorService {
     fun isPalindrome(inputString: String): Boolean {
         val inputString: String = inputString.toUpperCase().replace("\\s".toRegex(), "")
@@ -14,7 +18,6 @@ class ValidatorService {
                 hashMap[array[i]] = 1
         }
 
-        println(hashMap)
         var oddChar: Int = 0
         hashSet.forEach {
             if ((hashMap[it]?.rem(2)) == 1)
