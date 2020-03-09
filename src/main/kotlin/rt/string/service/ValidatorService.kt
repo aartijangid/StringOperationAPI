@@ -1,7 +1,6 @@
 package rt.string.service
 
 import org.springframework.stereotype.Service
-import javax.xml.ws.ServiceMode
 
 @Service
 class ValidatorService {
