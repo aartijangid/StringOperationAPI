@@ -1,4 +1,4 @@
 # StringOperationAPI
 
-App URL: https://ancient-reaches-77687.herokuapp.com/palindrome/kayak
+App URL: https://ancient-reaches-77687.herokuapp.com/palindrome/<text_input>
 
